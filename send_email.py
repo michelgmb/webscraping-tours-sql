@@ -7,7 +7,7 @@ def sendemail(message):
     smtp_server = "smtp.gmail.com"
     sender_email = 'devopsesi2022@gmail.com'
     receiver_email = 'devopsesi2022@gmail.com'
-    password = 'unkj vlla dtat dxkd'  # os.getenv
+    password = password # os.getenv
 
     # Message = f""" \
     # Subject: Hi
